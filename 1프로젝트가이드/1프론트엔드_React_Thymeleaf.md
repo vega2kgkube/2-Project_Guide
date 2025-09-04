@@ -12,9 +12,10 @@
 
 ### 2.1 화면 설계서 가이드
 
-#### 2.1.1 화면 설계 도구 비교
+#### 2.1.1 와이어프레임/프로토타이핑 도구
 
 **Figma**
+* https://www.figma.com/ko-kr/
 
 ```
 장점:
@@ -38,41 +39,54 @@
 4. 컴포넌트 생성으로 재사용 가능한 UI 요소 제작
 5. 프로토타이핑으로 화면 간 연결
 ```
+**대안 도구들**
+```
+Sketch:
+- https://www.sketch.com/blog/how-to-create-a-wireframe/
+- 장점: Mac에서 뛰어난 성능
+- 단점: Mac 전용, 유료
+
+Balsamiq:
+- https://balsamiq.com/
+- 장점: 빠른 와이어프레임 제작
+- 단점: 기능 제한적, 디자인보다는 구조 설계용
+
+draw.io (현재 diagrams.net):
+- https://www.drawio.com/
+- 장점: 완전 무료, 간단한 와이어프레임
+- 단점: 디자인 기능 부족
+```
+#### 2.1.1 와이어프레임/프로토타이핑 도구
 
 **Chakra UI**
-```
-**장점:**
-- **간단한 API**: 직관적이고 배우기 쉬운 prop 기반 스타일링
-- **빠른 개발**: 최소한의 설정으로 바로 사용 가능
-- **좋은 기본값**: 접근성과 반응형을 기본으로 지원
-- **작은 번들 크기**: 필요한 컴포넌트만 import 가능
-- **훌륭한 문서**: 명확하고 이해하기 쉬운 예제
+* https://chakra-ui.com/
+  - **간단한 API**: 직관적이고 배우기 쉬운 prop 기반 스타일링
+  - **빠른 개발**: 최소한의 설정으로 바로 사용 가능
+  - **좋은 기본값**: 접근성과 반응형을 기본으로 지원
+  - **작은 번들 크기**: 필요한 컴포넌트만 import 가능
 
 **설치 방법:**
 ```bash
 npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
 ```
 
-**대안 도구들**
-```
-Adobe XD:
-- 장점: Adobe 생태계 연동, 강력한 프로토타이핑
-- 단점: 유료, 학습비용 높음
+**Material-UI (MUI)**
+* https://mui.com/material-ui/
+-  Google Material Design 기반으로 일관성 있는 디자인, 많이 사용되는 라이브러리, 풍부한 컴포넌트와 문서
 
-Sketch:
-- 장점: Mac에서 뛰어난 성능
-- 단점: Mac 전용, 유료
+**React Bootstrap**
+* https://react-bootstrap.netlify.app/
+-  Bootstrap에 익숙한 개발자들이 쉽게 사용, 반응형 디자인 우수
 
-Balsamiq:
-- 장점: 빠른 와이어프레임 제작
-- 단점: 기능 제한적, 디자인보다는 구조 설계용
+**Mantine**
+* https://mantine.dev/
+-  모던한 디자인, 다크테마 지원, 풍부한 hooks 제공, 좋은 성능
 
-draw.io (현재 diagrams.net):
-- 장점: 완전 무료, 간단한 와이어프레임
-- 단점: 디자인 기능 부족
-```
+**shadcn/ui**
+* https://ui.shadcn.com/
+- Tailwind CSS 기반, 복사-붙여넣기 방식으로 완전한 커스터마이징 가능, 모던한 디자인
 
-#### 2.1.2 화면 설계 단계별 가이드
+#### 2.1.3 화면 설계 단계별 가이드
 
 **STEP 1: 사이트맵 작성**
 ```
